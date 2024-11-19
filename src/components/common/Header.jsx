@@ -1,8 +1,7 @@
 import { Link } from "react-router-dom";
-import Logo from "../../assets/images/myLogo.png";
+import Logo from "../../assets/images/myLogo1.png";
 import HomeIcon from "../../assets/icons/home.svg";
 import Notification from "../../assets/icons/notification.svg";
-import Avatar from "../../assets/images/avatars/avatar_1.png";
 import Logout from "../auth/Logout";
 import { useAuth } from "../../hooks/useAuth";
 import { useProfile } from "../../hooks/useProfile";
@@ -17,7 +16,7 @@ const Header = () => {
       <div className="container flex flex-col items-center justify-between gap-6 sm:flex-row">
         <Link to="/">
           <img
-            className="max-w-[100px] h-20 w-16 rounded-full lg:max-w-[130px]"
+            className="max-w-[100px] h-12 w-12 rounded-full lg:max-w-[130px]"
             src={Logo}
           />
         </Link>
@@ -33,9 +32,11 @@ const Header = () => {
           <Logout />
 
           <button className="flex-center !ml-8 gap-3">
-            <span className="text-lg font-medium lg:text-xl">
-              {user?.firstName} {user?.lastName}
-            </span>
+            <Link to="/me">
+              <span className="text-lg font-medium lg:text-xl">
+                {user?.firstName} {user?.lastName}
+              </span>
+            </Link>
             <img
               className="max-h-[32px] max-w-[32px] lg:max-h-[44px] lg:max-w-[44px] rounded-full"
               src={`${import.meta.env.VITE_SERVER_BASE_URL}/${user.avatar}`}

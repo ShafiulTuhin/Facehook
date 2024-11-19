@@ -33,12 +33,12 @@ const Profile = () => {
 
   if (state?.loading) return <h2>Loading posts...</h2>;
   return (
-    <div>
-      Welcome, {state?.user?.firstName} {state?.user?.lastName}
+    <div className="flex flex-col items-center py-8 text-center">
+      {/* Welcome, {state?.user?.firstName} {state?.user?.lastName}
       <p>
         You have {state?.posts.length > 0 ? state?.posts.length : "no"} post
         {state?.posts.length > 1 ? "s" : ""}
-      </p>
+      </p> */}
       <ProfileInfo />
       <MyPost />
     </div>

@@ -460,6 +460,69 @@
       "comments": [],
       "likes": [],
       "createAt": "2024-02-25T07:16:53.349Z"
+    },
+    {
+      "id": "7d963ad0-ddba-4451-a0ce-0048633df6f8",
+      "content": "This is my first post.Hey!friends how are you all? Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type ... ",
+      "image": "uploads/posts/image-1708777877789-380778733.jpg",
+      "postType": "text",
+      "author": {
+        "id": "8e08f448-8e27-411d-ba07-73f323a07cdc",
+        "name": "Adiyaan Tuhin",
+        "avatar": "uploads/avatar/avatar-1731943235418-627889627.jpg"
+      },
+      "comments": [
+        {
+          "id": "46a49bb3-59cf-4ea3-9376-18b52cd564b1",
+          "comment": "Hi",
+          "createdAt": "2024-02-25T09:04:10.370Z",
+          "author": {
+            "id": "6fd3ed42-2275-4d5f-a436-e5a3bf586c56",
+            "name": "Saad Hasan",
+            "avatar": "uploads/avatar/avatar-1708849386635-121791126.png"
+          }
+        },
+        {
+          "id": "a0e37f88-ffc7-4fc7-952e-81370ff96269",
+          "comment": "সবাইকে অনেক অনেক ধন্যবাদ",
+          "createdAt": "2024-02-24T12:36:38.047Z",
+          "author": {
+            "id": "8fc0f0d6-396a-4ef4-922b-27ef5b4e8526",
+            "name": "Tapas Adhikary",
+            "avatar": "uploads/avatar/avatar-1708770640883-148182382.png"
+          }
+        }
+      ],
+      "likes": [],
+      "createAt": "2024-11-19T04:43:20.016Z"
+    },
+    {
+      "id": "0ec8665e-cf8f-4291-ae0c-56622705f55a",
+      "content": "Time and tide wait for none",
+      "image": null,
+      "postType": "text",
+      "author": {
+        "id": "8e08f448-8e27-411d-ba07-73f323a07cdc",
+        "name": "Adiyaan Tuhin",
+        "avatar": "uploads/avatar/avatar-1731943235418-627889627.jpg"
+      },
+      "comments": [],
+      "likes": [],
+      "createAt": "2024-11-19T04:52:08.904Z"
+    },
+    {
+      "id": "828b60e2-0eeb-4d50-9c86-a3311db220c0",
+      "content": "",
+      "image": null,
+      "postType": "text",
+      "author": {
+        "id": "3627072c-cfd6-4d35-a7f7-26e699d54b6a",
+        "name": "Shafiul Tuhin",
+        "avatar": "uploads/avatar/avatar-1731987446390-170534786.JPEG"
+      },
+      "comments": [],
+      "likes": [],
+      "createAt": "2024-11-19T07:58:38.456Z"
     }
   ],
   "comments": [],
@@ -520,7 +583,7 @@
       "password": "$2b$08$gMNcoKZxsnjgZhIOBYZ0MeGqDjOLYovEI1M8wI4QfbntDCP7hhU6S",
       "firstName": "Shafiul",
       "lastName": "Tuhin",
-      "avatar": "uploads/avatar/avatar-1708770640883-148182382.png",
+      "avatar": "uploads/avatar/avatar-1731987446390-170534786.JPEG",
       "email": "tuhin6488@gmail.com",
       "bio": "Hey! dude,How are you all.\n"
     },
